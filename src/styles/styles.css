@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../assets/fonts/barlow.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Barlow", "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7edf0 !important;
+}
+
+code {
+  font-family: "Barlow", "Inter", monospace;
+}
